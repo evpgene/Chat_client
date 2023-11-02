@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "ReceivedType.h"
 #include <string>
 

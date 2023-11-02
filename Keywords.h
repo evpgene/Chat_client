@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include <string>
 using keyword_t = const std::string;
 

@@ -1,4 +1,4 @@
-enum ReceivedType {
+﻿enum ReceivedType {
     ANY,
     USERNAMES,
     USERNAMES_END,

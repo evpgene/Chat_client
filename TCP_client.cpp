@@ -1,3 +1,5 @@
+﻿#ifdef __linux__
+
 #include "TCP_client.h"
 
 TCP_client::TCP_client(/* args */)
@@ -81,3 +83,6 @@ void TCP_client::closeConnection()
     // закрываем сокет, завершаем соединение
     close(socket_file_descriptor);
 }
+
+
+#endif
