@@ -6,16 +6,71 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>563</width>
+    <height>219</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout" stretch="0,1">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Message:</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="messageLineEdit"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sendPushButton">
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextBrowser" name="chatBrowser"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>563</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuMain_Menue">
+    <property name="title">
+     <string>Main Menue</string>
+    </property>
+    <addaction name="actionOpen_another_client"/>
+    <addaction name="separator"/>
+    <addaction name="actionClose_client"/>
+   </widget>
+   <addaction name="menuMain_Menue"/>
+  </widget>
   <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionOpen_another_client">
+   <property name="text">
+    <string>Open another client</string>
+   </property>
+  </action>
+  <action name="actionClose_client">
+   <property name="text">
+    <string>Close client</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections/>

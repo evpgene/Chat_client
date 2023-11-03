@@ -43,8 +43,13 @@ else()
     else()
         add_executable(Chat_client
             ${PROJECT_SOURCES}
-            User.h ReceivedType.h TCP_client.h Message.h MyException.h ReceivedData.h Client.h Keywords.h
-            main_.cpp TCP_client.cpp User.cpp Message.cpp Client.cpp
+            User.h ReceivedType.h  Message.h MyException.h ReceivedData.h Client.h Keywords.h
+            User.cpp Message.cpp Client.cpp
+            TCP_client_w.cpp
+            TCP_client_w.h
+            startscreen.h startscreen.cpp startscreen.ui
+            loginform.h loginform.cpp loginform.ui
+            registrationform.h registrationform.cpp registrationform.ui
         )
     endif()
 
