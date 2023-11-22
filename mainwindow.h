@@ -18,11 +18,8 @@ public:
 
 private slots:
     void on_messageLineEdit_returnPressed();
-
     void on_sendPushButton_clicked();
-
     void on_actionOpen_another_client_triggered();
-
     void on_actionClose_client_triggered();
 
 private:

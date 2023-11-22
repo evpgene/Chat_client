@@ -9,11 +9,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="loginform.ui" line="61"/>
-        <source>Registration</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="loginform.ui" line="22"/>
         <source>Login:</source>
         <translation type="unfinished"></translation>
@@ -21,6 +16,16 @@
     <message>
         <location filename="loginform.ui" line="29"/>
         <source>Password:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="loginform.ui" line="36"/>
+        <source>куеку</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="loginform.ui" line="64"/>
+        <source>Registration</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

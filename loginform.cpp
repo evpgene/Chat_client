@@ -16,13 +16,13 @@ LoginForm::~LoginForm()
 
 void LoginForm::on_buttonBox_accepted()
 {
-
+    emit accepted();
 }
 
 
 void LoginForm::on_buttonBox_rejected()
 {
-
+    emit rejected();
 }
 
 

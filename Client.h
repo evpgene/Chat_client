@@ -7,8 +7,8 @@
 #include "Keywords.h"
 
 //using keyword_t = const std::string;
-using User_t = std::shared_ptr<User>;  // СѓРєР°Р·Р°С‚РµР»СЊ РЅР° СЋР·РµСЂР°
-using Message_t = std::shared_ptr<Message>;  // СѓРєР°Р·Р°С‚РµР»СЊ РЅР° С‡Р°С‚
+using User_t = std::shared_ptr<User>;  // указатель на юзера
+using Message_t = std::shared_ptr<Message>;  // указатель на чат
 
 class Client
 {

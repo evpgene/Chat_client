@@ -15,13 +15,13 @@ RegistrationForm::~RegistrationForm()
 
 void RegistrationForm::on_buttonBox_accepted()
 {
-
+    emit accepted();
 }
 
 
 void RegistrationForm::on_buttonBox_rejected()
 {
-
+    emit rejected();
 }
 
 
